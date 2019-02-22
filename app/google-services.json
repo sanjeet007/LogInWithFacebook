@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "774272503947",
+    "firebase_url": "https://authapp-cac50.firebaseio.com",
+    "project_id": "authapp-cac50",
+    "storage_bucket": "authapp-cac50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774272503947:android:d76783b0d2f37517",
+        "android_client_info": {
+          "package_name": "com.apkglobal.authapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774272503947-ur3prtpg5bp3q2kfudgmflolfs7davdj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apkglobal.authapp",
+            "certificate_hash": "5d8db8e6b8c66243784e12a6dc0e2313817821b8"
+          }
+        },
+        {
+          "client_id": "774272503947-to80ascanhpei16pggh9m8supprhjoma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtR9U6iBgncDodJen76_DJ1fUjqZlJPnM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774272503947-to80ascanhpei16pggh9m8supprhjoma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

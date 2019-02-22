@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/image1"
+        android:src="@drawable/tick_image"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congrats! You Are Logged In"
+        android:layout_centerHorizontal="true"
+        android:textSize="23sp"
+        android:id="@+id/text2"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@+id/image1"
+        android:layout_marginTop="30dp"
+        android:textColor="#494848"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_logout"
+        android:fontFamily="sans-serif-light"
+        android:elevation="@dimen/cardview_default_elevation"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Account Logout"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+</RelativeLayout>
